@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "second-app",
+    "slug": "second-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor":"#dedcd0",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "caadb838-d2eb-4962-a789-96463c7d3f1a"
+      }
+    },
+    "owner": "stephaniecinelli"
+  }
+}
